@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-111-initiate-transfer-emits-no-event-and-there-is",
+    "fix/issue-112-several-state-changing-functions-emit-no-events",
+    "fix/issue-113-reissue-certificate-reuses-the-issued-event",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-111-initiate-transfer-emits-no-event-and-there-is": "main",
+    "fix/issue-112-several-state-changing-functions-emit-no-events": "main",
+    "fix/issue-113-reissue-certificate-reuses-the-issued-event": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-111-initiate-transfer-emits-no-event-and-there-is",
+    "fix/issue-112-several-state-changing-functions-emit-no-events",
+    "fix/issue-113-reissue-certificate-reuses-the-issued-event",
+    "origin"
+  ]
+}
